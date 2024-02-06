@@ -1,0 +1,9 @@
+pip3 install virtualenv
+python3.11 -m venv .venv
+# sempre rodar o comando abaixo no mac
+source .venv/bin/activate
+pylint --generate-rcfile > .pylintrc
+pre-commit install
+pip3 install python-barcode
+pip3 install pillow
+python3 run_raw.py
