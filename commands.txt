@@ -13,4 +13,8 @@ python3 run_raw.py
 # rodar esse comando apos instalar alguma lib
 .venv/bin/pip3 freeze > requirements.txt
 git commit -m "feat: implementing view for tag creator with http types" --no-verify
-pip3 install Cerberus  
+pip3 install Cerberus
+pip3 install pytest
+pytest
+pytest -s -v
+pytest -s -v src/controllers/tag_creator_controller_test.py 
