@@ -12,3 +12,4 @@ pip3 install pillow
 python3 run_raw.py
 # rodar esse comando apos instalar alguma lib
 .venv/bin/pip3 freeze > requirements.txt
+git commit -m "feat: implementing view for tag creator with http types" --no-verify
